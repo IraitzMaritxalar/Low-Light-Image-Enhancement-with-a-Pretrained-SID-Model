@@ -22,13 +22,11 @@ The goal of the assignment is to:
 I modified the **darkness factor** used to simulate low-light conditions.
 
 Original:
-```matlab
 darkFactor = 0.03;
-My change:
 
-matlab
-Copiar código
+My change:
 brightnessFactor = 0.05;
+
 This makes the simulated low-light image even darker, so the pretrained network must compensate more aggressively during enhancement. The rest of the workflow remains unchanged.
 
 ## ✔ Output Description
